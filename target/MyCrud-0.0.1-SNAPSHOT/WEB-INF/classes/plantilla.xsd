@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+         <!-- XML Schema Generated from XML Document on Tue May 23 2023 09:44:02 GMT+0200 (hora de verano de Europa central) -->
+         <!-- with XmlGrid.net Free Online Service http://xmlgrid.net -->
+         <xs:element name="centro">
+               <xs:complexType>
+                     <xs:sequence>
+                           <xs:element name="alumno">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:element name="nombre" type="xs:string"></xs:element>
+                                             <xs:element name="edad" type="xs:int"></xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                     </xs:sequence>
+               </xs:complexType>
+         </xs:element>
+   </xs:schema>
